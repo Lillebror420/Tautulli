@@ -1,4 +1,17 @@
 
+# Tautulli Webhook Integration
+
+Denne samling af JSON-koder er designet til at oprette webhooks i Tautulli, der sender embeds til en platform som Discord, når der sker aktivitet på din Plex-server. Webhooks bruges til at give opdateringer om film- eller serieafspilning, såsom kvalitet, resterende tid, IMDb-rating, og mere.
+
+### Funktionalitet
+Disse webhooks sender detaljerede beskeder, der afhænger af, om indholdet er en film eller en episode af en tv-serie. Der er forskellige farver og felter afhængigt af indholdstypen.
+## Farve skema
+
+| Farve             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Film | ![#990000](https://via.placeholder.com/10/990000?text=+) #990000 |
+| Serie/Episode | ![#FCBA03](https://via.placeholder.com/10/FCBA03?text=+) ##FCBA03 |
+
 ## Opsætning
 
 #### Trin 1: Åbn Tautulli Log ind på din Tautulli-server.
