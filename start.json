@@ -1,0 +1,53 @@
+{
+    "embeds": [
+        {
+            <episode>"color": 16556313,</episode><movie>"color": 10040012,</movie>
+            "fields": [
+            	{
+                    "inline": true,
+                    "name": "Kvalitet",
+                    "value": "[{video_full_resolution}](https://tautulli.domain.net/info?rating_key={rating_key})"
+            	},
+               	<episode>{
+                    "inline": true,
+                    "name": "Sæson/Episode",
+                    "value": "s**{season_num00}**e**{episode_num00}**"
+                },</episode>
+                 <movie>{
+                    "inline": true,
+                    "name": "IMDb Rating",
+                    "value": "🍿{rating}"
+                },</movie>
+                {
+                    "inline": true,
+                    "name": "Detaljer",
+                    "value": "<episode>[Series Info]({themoviedb_url})</episode><movie>[IMDb Info]({imdb_url})</movie>"
+                },
+                {
+                    "inline": true,
+                    "name": "Varighed",
+                    "value": "{duration}"
+                },
+                {
+                    "inline": true,
+                    "name": "Se nu",
+                    "value": "[Plex Web]({plex_url})"
+                }
+            ],
+            "thumbnail": {
+                "url": "{poster_url}"
+            },
+            "title": "{title}<movie> ({year})</movie>",
+            "description": "{summary}",
+            "timestamp": "{utctime}",
+            "url": "{plex_url}",
+            "footer": {
+                "text": "{server_name} | {platform} | {ip_address} | {session_key} | {stream_location}"
+            }
+            
+        }
+       
+    ],
+    "username": "{username} {action} {title}",
+    "avatar_url": "{user_thumb}"
+}
